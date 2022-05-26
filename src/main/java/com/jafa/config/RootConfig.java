@@ -26,6 +26,7 @@ public class RootConfig {
 		return  new HikariDataSource(config); 
 	}
 	
+	
 	@Bean
 	public SqlSessionFactory sqlSessionFactory() throws Exception {
 		SqlSessionFactoryBean sqlSessionFactoryBean
